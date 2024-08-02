@@ -1,12 +1,9 @@
 #include <stdio.h>
 
-// DO NOT CHANGE THE FUNCTION SIGNATURE
 double calculateDiscountedPrice(double, int, int);
 
-
-
 int main() {
-    // DO NOT CHANGE THE MAIN FUNCTION
+    
 
     // Example usage of the function
     double baseSubscriptionPrice; // Base price for the subscription
