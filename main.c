@@ -27,18 +27,15 @@ int main() {
 }
 
 /*
-    IMPLEMENT THE BELOW FUNCTION
-    Your function, named calculateDiscountedPrice, will accept the following parameters:
+    Named calculateDiscountedPrice, will accept the following parameters:
 
     - basePrice: The price of the subscription (double).
     - userAge: The age of the subscriber (int).
     - subscriptionDuration: The number of months the subscription is for (int).
 
     The function should apply the following discounts in the order listed:
-
     1. An age-based discount of 20% for users under 18 (including 18) or over 60 (including 60).
     2. A duration-based discount of 10% for subscriptions of 6-12 (both 6 and 12 included) months and 15% for subscriptions longer than 12 months.
-
 */
 double calculateDiscountedPrice(double basePrice, int userAge, int subscriptionDuration)
 {
